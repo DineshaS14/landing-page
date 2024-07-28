@@ -4139,6 +4139,10 @@ input, select, textarea {
 		}
 
 	}
+	.actions .icon {
+		font-size: 1.3em; /* Adjust this value to increase/decrease size */
+	}
+	
 
 	@media screen and (max-width: 736px) and (orientation: portrait) {
 
