@@ -18,11 +18,11 @@ aj@lkn.io | @ajlkn
 
 Credits:
 
-	Demo Images:
-		Unsplash (unsplash.com)
+	Images:
+		Dinesha Shair
 
 	Icons:
-		Font Awesome (fontawesome.io)
+		https://devicon.dev/
 
 	Other:
 		jQuery (jquery.com)
