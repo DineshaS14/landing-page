@@ -1972,258 +1972,6 @@ input, select, textarea {
 			color: #ffffff !important;
 		}
 
-			input[type="submit"].primary:hover,
-			input[type="reset"].primary:hover,
-			input[type="button"].primary:hover,
-			button.primary:hover,
-			.button.primary:hover {
-				background-color: #5ca3e8;
-			}
-
-			input[type="submit"].primary:active,
-			input[type="reset"].primary:active,
-			input[type="button"].primary:active,
-			button.primary:active,
-			.button.primary:active {
-				background-color: #3089e2;
-			}
-
-/* Form */
-
-	form {
-		margin: 0 0 2em 0;
-	}
-
-	label {
-		display: block;
-		font-size: 0.9em;
-		font-weight: bold;
-		margin: 0 0 1em 0;
-	}
-
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select,
-	textarea {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		border-radius: 6px;
-		border: none;
-		border-style: solid;
-		border-width: 1px;
-		color: inherit;
-		display: block;
-		outline: 0;
-		padding: 0 1em;
-		text-decoration: none;
-		width: 100%;
-	}
-
-		input[type="text"]:invalid,
-		input[type="password"]:invalid,
-		input[type="email"]:invalid,
-		select:invalid,
-		textarea:invalid {
-			box-shadow: none;
-		}
-
-	select {
-		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23e6e6e6' /%3E%3C/svg%3E");
-		background-size: 1.25rem;
-		background-repeat: no-repeat;
-		background-position: calc(100% - 1rem) center;
-		height: 2.75em;
-		padding-right: 2.75em;
-		text-overflow: ellipsis;
-	}
-
-		select option {
-			color: #828282;
-			background: #ffffff;
-		}
-
-		select:focus::-ms-value {
-			background-color: transparent;
-		}
-
-		select::-ms-expand {
-			display: none;
-		}
-
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select {
-		height: 2.75em;
-	}
-
-	textarea {
-		padding: 0.75em 1em;
-	}
-
-	input[type="checkbox"],
-	input[type="radio"] {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		display: block;
-		float: left;
-		margin-right: -2em;
-		opacity: 0;
-		width: 1em;
-		z-index: -1;
-	}
-
-		input[type="checkbox"] + label,
-		input[type="radio"] + label {
-			text-decoration: none;
-			cursor: pointer;
-			display: inline-block;
-			font-size: 1em;
-			font-weight: normal;
-			padding-left: 2.4em;
-			padding-right: 0.75em;
-			position: relative;
-		}
-
-			input[type="checkbox"] + label:before,
-			input[type="radio"] + label:before {
-				-moz-osx-font-smoothing: grayscale;
-				-webkit-font-smoothing: antialiased;
-				display: inline-block;
-				font-style: normal;
-				font-variant: normal;
-				text-rendering: auto;
-				line-height: 1;
-				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
-				font-weight: 900;
-			}
-
-			input[type="checkbox"] + label:before,
-			input[type="radio"] + label:before {
-				border-radius: 6px;
-				border-style: solid;
-				border-width: 1px;
-				content: '';
-				display: inline-block;
-				font-size: 0.8em;
-				height: 2.0625em;
-				left: 0;
-				line-height: 2.0625em;
-				position: absolute;
-				text-align: center;
-				top: 0;
-				width: 2.0625em;
-			}
-
-		input[type="checkbox"]:checked + label:before,
-		input[type="radio"]:checked + label:before {
-			content: '\f00c';
-		}
-
-	input[type="checkbox"] + label:before {
-		border-radius: 6px;
-	}
-
-	input[type="radio"] + label:before {
-		border-radius: 100%;
-	}
-
-	::-webkit-input-placeholder {
-		opacity: 1.0;
-	}
-
-	:-moz-placeholder {
-		opacity: 1.0;
-	}
-
-	::-moz-placeholder {
-		opacity: 1.0;
-	}
-
-	:-ms-input-placeholder {
-		opacity: 1.0;
-	}
-
-	.formerize-placeholder {
-		opacity: 1.0;
-	}
-
-	label {
-		color: #828282;
-	}
-
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select,
-	textarea {
-		color: inherit;
-		background-color: rgba(144, 144, 144, 0.075);
-		border-color: #e6e6e6;
-	}
-
-		input[type="text"]:focus,
-		input[type="password"]:focus,
-		input[type="email"]:focus,
-		select:focus,
-		textarea:focus {
-			border-color: #4696e5;
-			box-shadow: 0 0 0 1px #4696e5;
-		}
-
-	.select-wrapper:before {
-		color: #e6e6e6;
-	}
-
-	input[type="checkbox"] + label,
-	input[type="radio"] + label {
-		color: #999999;
-	}
-
-		input[type="checkbox"] + label:before,
-		input[type="radio"] + label:before {
-			background-color: rgba(144, 144, 144, 0.075);
-			border-color: #e6e6e6;
-		}
-
-	input[type="checkbox"]:checked + label:before,
-	input[type="radio"]:checked + label:before {
-		background-color: #4696e5;
-		border-color: #4696e5;
-		color: #ffffff;
-	}
-
-	input[type="checkbox"]:focus + label:before,
-	input[type="radio"]:focus + label:before {
-		border-color: #4696e5;
-		box-shadow: 0 0 0 1px #4696e5;
-	}
-
-	::-webkit-input-placeholder {
-		color: #e0e0e0 !important;
-	}
-
-	:-moz-placeholder {
-		color: #e0e0e0 !important;
-	}
-
-	::-moz-placeholder {
-		color: #e0e0e0 !important;
-	}
-
-	:-ms-input-placeholder {
-		color: #e0e0e0 !important;
-	}
-
-	.formerize-placeholder {
-		color: #e0e0e0 !important;
-	}
 
 /* Icon */
 
@@ -4071,6 +3819,144 @@ input, select, textarea {
 			}
 
 		}
+	/* About Me */
+	.about-me {
+		padding: 20px;
+		background-color: #f9f9f9;
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+	
+	.intro {
+		font-size: 18px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	
+	.highlights {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.highlights li {
+		margin-bottom: 10px;
+	}
+	
+	.highlights span {
+		font-weight: bold;
+		margin-right: 10px;
+	}
+	
+	.call-to-action {
+		font-size: 18px;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+	
+	/* My Skills*/
+	.skills-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	.skill-category {
+		margin: 20px;
+		padding: 20px;
+		background-color: #f9f9f9;
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+	
+	.skill-icons {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	.skill-icons img {
+		margin: 10px;
+		padding: 10px;
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(0, 161, 67, 0.1);
+	}
+
+	/* Project Section */
+	.navbar {
+		background-color: #333; /* matching the theme's color scheme */
+		padding: 2px;
+		padding-bottom: 2px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+    
+	}
+	
+	.logo {
+		margin-right: 20px;
+	}
+	
+	.logo img {
+		width: 100px; /* adjust the width as needed */
+		height: auto;
+	}
+	
+	.nav-links {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+	}
+	
+	.nav-links li {
+		margin-right: 20px;
+	}
+	
+	.nav-links a {
+		color: #4696e5; /* white color for links */
+		text-decoration: none;
+	}
+	
+	.nav-links a:hover {
+		color: #ccc; /* light gray color on hover */
+	}
+
+	.nav-button-container .button {
+		padding: 2px 2px;
+		font-size: 14px;
+		height: 20px;
+		width: 100px;
+		line-height: 1.2;
+		color: #4696e5; /* white color for links */
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.projects {
+		background-color: #f9f9f9;
+		padding: 20px;
+	}
+	
+	.project {
+		margin-bottom: 20px;
+		padding: 20px;
+		background-color: #fff;
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+	
+	.project-images {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+	
+	.project-images img {
+		margin: 10px;
+		border-radius: 10px;
+	}
 
 /* Footer */
 
